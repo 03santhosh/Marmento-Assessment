@@ -13,7 +13,65 @@
 <body>
     <!-- Your code goes here -->
     <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+        <div class="main-container">
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="" alt="Product Image" id="main-product-image">
+                    <div class="thumbnails-container">
+                        <div class="thumbnails">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-details">
+                    <div class="head">
+                        <h1 class="product-vendor"></h1>
+                        <h2 class="product-title"></h2>
+                    </div>
+                    <div class="price-container">
+                        <p class="price"></p>
+                        <p class="percentage-off"></p>
+                    </div>
+                    <p class="compare-at-price"></p>
+
+                    <div class="color-container">
+                        <h1 class="color-text">Choose a Color</h1>
+                        <div class="c-container">
+
+                        </div>
+                    </div>
+
+                    <div class="size-container">
+                        <h1 class="color-text">Choose the Size</h1>
+                        <div class="size-selector">
+
+                        </div>
+                    </div>
+
+                    <div class="quantity-add-container">
+                        <div class="rectangle-parent4">
+                            <b class="b1" onclick="decrementValue()">-</b>
+                            <b class="b2" id="quantityValue">1</b>
+                            <b class="b3" onclick="incrementValue()">+</b>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-details-added">
+                        <p id="addedProductDetails"></p>
+                    </div>
+
+                    <div class="message-container">
+                        <p class="add-to-cart-message"></p>
+                    </div>
+
+                    <div class="description">
+                        <h3>Description</h3>
+                        <p class="product-description"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Happy coding 😊 -->
     <script src="./script.js"></script>
